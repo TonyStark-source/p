@@ -3,7 +3,6 @@ $(document).ready(function () {
     $(window).scrollLeft(
       localStorage.getItem(location.pathname)
     )
-    console.log($(window).scrollLeft())
   }
   
   $(window).on('scroll', function () {
@@ -11,7 +10,5 @@ $(document).ready(function () {
       location.pathname,
       $(window).scrollLeft()
       )
-      console.log('saving...')
-      console.log($(window).scrollLeft())
   })
 })
