@@ -1,0 +1,53 @@
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+nav > ul > li {
+  float: left;
+}
+nav > ul > li.right {
+  float: right;
+}
+nav > ul > li > a {
+  display: block;
+  color: white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav > ul > li > a:hover:not(.active) {
+  background-color: #111;
+}
+nav > ul > li > a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 600px) {
+  nav > ul > li.right, nav > ul > li {
+    float: none;
+  }
+}
+
+main > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+main > ul > li {
+  background-color: #333;
+  margin: 1rem;
+}
+main > ul > li > a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-align:center;
+  text-decoration: none;
+}
+main > ul > li > a:hover {
+  background-color: orange;
+  color: black;
+}

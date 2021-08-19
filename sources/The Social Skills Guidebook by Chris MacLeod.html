@@ -4,42 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homo Deus JA</title>
+    <title>The Social Skills Guide Book By Chris MacLeod</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap"
-      rel="stylesheet"
-    />
+    <link href="../style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../index.css"/>
   </head>
-  <body
-    style="
-      -ms-writing-mode: tb-r1;
-      writing-mode: vertical-rl;
-      text-decoration: none;
-      text-indent: 1rem;
-      font-family: 'Noto Serif JP', serif;
-    "
-  >
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function () {
-        if (localStorage.getItem('my_app_name_here-quote-scroll') != null) {
-          $(window).scrollTop(
-            localStorage.getItem('my_app_name_here-quote-scroll')
-          )
-        }
-
-        $(window).on('scroll', function () {
-          localStorage.setItem(
-            'my_app_name_here-quote-scroll',
-            $(window).scrollTop()
-          )
-        })
-      })
-    </script>
-    <p style="font-size: 2rem">
+  <body>
+    <head>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Best</a></li>
+          <li class="right"><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </head>
+    <p>
       はじめにこの本は、社会的スキルを磨く必要があると感じている人のためのものです。
       人見知りや不安、不安を感じているかもしれません。
       会話をするのに苦労して、相手に良い印象を残そうとします。
@@ -4092,5 +4074,9 @@
       当然、否定的な側面は、一部の人々が理解しなかったり、あなたのことをさらに悪く考えたり、病気の意味について間違った考えを持ったりすることです。
       ですから、二度と会うことのないパーティーでは、見知らぬ人ではなく上司のような人に話すべきかどうかを考える必要があります。
     </p>
+     <script src="../jquery-3.6.0.js"></script>
+
+    <script type="text/javascript" src="../script.js">
+    </script>
   </body>
 </html>
